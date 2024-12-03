@@ -1,0 +1,38 @@
+.form{
+    border: solid  rgb(173, 170, 170);
+    border-width: 1px;
+    width: 280px;
+    height: 330px;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    align-items: center;
+    margin:auto;
+    margin-top: 105px;
+    padding-left: 65px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    background-color: rgb(104, 101, 98);
+    border-radius: 10px;
+
+    span{
+       font-size: 20px;
+    }
+    input{
+        width:200px;
+        height: 25px;
+        border-radius: 12px;
+        background-color: antiquewhite;
+        border: none;    
+    }
+    button{
+        
+        margin-top: 16px;
+        font-size: 19px;
+        height: 32px;
+        width: 205px;
+        border-radius: 20px;
+        background-color: antiquewhite ; 
+        border: none;
+
+    }
+}
